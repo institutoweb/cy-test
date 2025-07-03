@@ -1,0 +1,19 @@
+{
+  "name": "cypress-001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testopen": "cypress open",
+    "testrun": "cypress run",
+    "testchrome": "cypress run --browser chrome",
+    "testfirefox": "cypress run --browser firefox",    
+    "testusuario": "cypress run --spec '/cypress/e2e/usuario.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  }
+}
