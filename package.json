@@ -7,7 +7,7 @@
     "testrun": "cypress run",
     "testchrome": "cypress run --browser chrome",
     "testfirefox": "cypress run --browser firefox",    
-    "testusuario": "cypress run --spec '/cypress/e2e/usuario.cy.js'"
+    "testusuario": "cypress run --spec '../cypress/e2e/usuario.cy.js'"
   },
   "keywords": [],
   "author": "",
