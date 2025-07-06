@@ -3,7 +3,7 @@ name: Cypress CursoTesting
 on:
   push:
   schedule:
-    - cron: '0 13 * * *' # todos los días a las 13:00 UTC
+    - cron: '0 13 5 7 *' # todos los días a las 13:00 UTC
 
 jobs:
   cypress-run:
