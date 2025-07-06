@@ -8,7 +8,7 @@ describe('template spec', () => {
     cy.get('#tuclave').type("clavesecreta")
     cy.get('#tumail').type("daniel@gmail.com")
     cy.get(':nth-child(8)').click()
-
+    cy.wait(1000)
     cy.get('#volver').click()
   })
 })
